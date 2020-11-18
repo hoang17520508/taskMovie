@@ -1,0 +1,45 @@
+/* desktop first  */
+/* xây dựng wewbsite ở màn hình lớn trc rồi chỉnh dần cho màn hình nhỏ
+ */
+
+ /* mobile first xây dựng website ở màn hình nhỏ trc rồi chỉnh dần cho màn hính lớn hơn */
+ 
+ h1{
+     background-color: red;
+
+ }
+ /* type: screen, print ,speech, all */
+ @media screen and (max-width:1200px){
+     /* code ảnh hưởng ở vùng nhwor hơn 1200 px  */
+     h1{
+         background-color: gold;
+     }
+ }
+ @media screen and (max-width:768px){
+    /* code ảnh hưởng ở vùng nhwor hơn 1200 px  */
+    h1{
+        background-color: green;
+    }
+}
+h2{
+    background-color: pink;
+
+}
+@media screen and (min-width:768px){
+    h2{
+        background-color: purple;
+    }
+}
+@media screen and (min-width:992px){
+    /* lớn hơn 992px */
+    h2{
+        background-color: tomato;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width:1000px){
+    h2{
+        background-color: teal;
+    }
+}
+
